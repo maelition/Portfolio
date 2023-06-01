@@ -8,7 +8,8 @@ html {
 }
 body{
     background-color: rgb(36, 36, 36);
-    background-image: url(background3.png);
+    background-image: url(./images/background2.png);
+    
     display: flex;
     flex-direction: column;
     margin : 0;
@@ -21,6 +22,7 @@ body nav{
     padding-left : 1%;
     padding-right : 1%;
     font-weight: 700;
+    opacity: 0.8;
 }
 body nav ul{
     display : flex;
@@ -120,7 +122,23 @@ footer{
     
     margin-top : 5%;
     margin-right : 17%;
+
+}
+#menu_retexs ul li a{
+    color : rgb(94, 166, 195);
+}
+#menu_retexs ul li a:hover{
+    color : rgb(0, 0, 0);
+}
+#menu_retexs ul li{
+    list-style:none;    
+}
+#menu_retexs ul{
+    padding-left : 20px;
+}
+#menu_retexs li:before{
     
+    content: "> ";
 }
 #GoUpPage{
     color : black;
