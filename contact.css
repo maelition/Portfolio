@@ -26,14 +26,26 @@ textarea {
     padding-top :10%;
     height : 30%;
 }
-
+#formBackground{
+    background-color: rgb(31, 0, 51);
+    padding : 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 100px;
+}
 @media only screen and (max-width: 900px) {
     main{
         align-items: center;
+        justify-content: center;
     }
     form{
         width : 50%;
+        margin-right : 0;
 
+    }
+    #formBackground{
+        background: none;
+        padding : 0;
     }
 
 }

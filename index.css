@@ -22,7 +22,7 @@ body nav{
     padding-left : 1%;
     padding-right : 1%;
     font-weight: 700;
-    opacity: 0.8;
+    
 }
 body nav ul{
     display : flex;
