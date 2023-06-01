@@ -1,0 +1,28 @@
+main{
+    display : flex;
+    justify-content: center;
+    padding-top : 5%;
+}
+
+form {
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, textarea{
+    margin : 10%;
+    height : 40px;
+    width : 150%;
+    border-radius: 30px;
+    padding : 2%;
+    padding-left : 10%;
+    resize:none;
+}
+form input[type="button"]{
+    width:40%;
+    padding : 0;
+}
+textarea {
+    padding-top :10%;
+    height : 30%;
+}

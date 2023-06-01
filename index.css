@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+html {
+    display: block;
+    /*font-family: 'Tilt Warp', cursive;*/
+    font-family: 'DM Sans', sans-serif;
+    color :rgb(255, 255, 255);
+}
+body{
+    background-color: rgb(36, 36, 36);
+    background-image: url(background3.png);
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+}
+body nav{
+    height : 10%;
+    background-color: rgb(104 144 255);
+    display : flex;
+    justify-content: space-between;
+    padding-left : 1%;
+    padding-right : 1%;
+    font-weight: 700;
+}
+body nav ul{
+    display : flex;
+    margin-right : 10%;
+
+}
+body nav p{
+    font-size: 30px;
+    
+}
+body nav ul li{
+    display: flex;
+    align-items: center;
+    margin : 10%;
+    
+}
+body nav a {
+    margin-left : 9%;
+}
+main{
+    display : flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#img-container {
+    font-size : 10px;
+    width : 30%;
+    margin-top : 5%;
+    margin-left : 5%;
+    display: flex;
+    justify-content: center;
+
+}
+#img-container img {
+    height : 120%;
+    border-radius: 50%;
+
+}
+#description-container{
+    color : rgb(255, 255, 255);
+    width :40%;
+    margin-top : 5%;
+    padding-right : 15%;
+}
+a {
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color : rgb(0, 0, 0);
+}
+#competences-container{
+    margin-top : 5%;
+    margin-left : 17%;
+    margin-right: 100%;
+    width : 10%;
+}
+#fleche{
+    margin : 50%;
+    margin-bottom: 11%;
+    margin-top : 7%;
+
+}
+.retex {
+    margin : 0;
+    width : 80%;
+    margin-bottom: 5%;
+}
+.titre-retex{
+    font-size: 27px;
+}
+.container-img-retex{
+
+    display : flex;
+    justify-content: space-evenly;
+}
+#retexs{
+    display :flex;
+    align-items: center;
+    flex-direction: column;
+}
+.compétences{
+    margin-left: 40%;
+}
+.compétences ul {
+    list-style: none;
+    font-size:larger;
+}
+.compétences li:before {
+    content: "+";
+    margin-right: 4px;
+}
+footer{
+    background-color: red;
+}
+menu#menu_retexs{
+    margin-left : 5%;
+}
+#GoUpPage{
+    color : black;
+    background-color: aliceblue;
+    padding : 15px;
+    position: fixed;
+    right: 20px;
+    bottom : 15px;
+    
+}
+#GoUpPage a{
+    color : black;
+    text-decoration: none;
+}
