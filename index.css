@@ -75,7 +75,7 @@ a:hover {
 #competences-container{
     margin-top : 5%;
     margin-left : 17%;
-    margin-right: 100%;
+    margin-right: 0%;
     width : 10%;
 }
 #fleche{
@@ -116,8 +116,11 @@ a:hover {
 footer{
     background-color: red;
 }
-menu#menu_retexs{
-    margin-left : 5%;
+#menu_retexs{
+    
+    margin-top : 5%;
+    margin-right : 17%;
+    
 }
 #GoUpPage{
     color : black;
@@ -132,7 +135,12 @@ menu#menu_retexs{
     color : black;
     text-decoration: none;
 }
-
+.barre{
+    width : 80%;
+    height : 5px;
+    background-color: rgb(165, 165, 165);
+    
+}
 @media only screen and (max-width: 900px) {
     main {
         flex-direction: column;
