@@ -132,3 +132,48 @@ menu#menu_retexs{
     color : black;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+    #img-container img {
+        width: 100px;
+        height : 100px;
+    }
+    #retexs{
+        flex-direction: column;
+        
+    }
+    .container-img-retex{
+        flex-direction: column;
+    }
+    #description-container{
+        margin-left : 10%;
+        width : 50%;
+        padding-right : 0%;
+
+    }
+    .compétences{
+        margin-left: 0%;
+    }
+    .compétences ul{
+        font-size:smaller;
+    }
+   
+    figure img {
+        width: 80%;
+    }
+    body nav{
+        flex-direction: column;
+    }
+    #GoUpPage{
+        right :50px;
+    }
+    #menu_retexs ul {
+        width : 80%;
+    }
+    #fleche {
+        margin-right : 50%;
+    }
+  }
